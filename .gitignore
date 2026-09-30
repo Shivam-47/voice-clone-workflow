@@ -1,0 +1,18 @@
+# environments / secrets
+.venv/
+.env
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+
+# voice samples and transcripts: copyrighted audio / likeness of real people, keep local
+voices/*
+!voices/README.md
+
+# generated audio, logs, scratch
+out/*
+!out/.gitkeep
+logs/
+_to_delete/

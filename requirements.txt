@@ -1,0 +1,21 @@
+# Apple Silicon only. mlx-audio from git main: fixes Qwen3-TTS dropping the middle of sentences on M5 Macs
+# (mlx-audio issue #464); pin a release once one includes it.
+mlx
+mlx-lm
+mlx-audio[server] @ git+https://github.com/Blaizzy/mlx-audio.git
+
+numpy
+soundfile
+python-dotenv
+
+# TTS server
+fastapi
+uvicorn[standard]
+
+# LiveKit agent (versions this was built against)
+livekit-agents==1.8.3
+livekit-plugins-openai==1.8.3
+livekit-plugins-silero==1.8.3
+
+# runs the three servers with one command
+honcho
