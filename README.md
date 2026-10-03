@@ -6,7 +6,8 @@ Speech-to-text, the LLM and zero-shot voice cloning all run on [MLX](https://git
 
 ![Architecture](docs/architecture.svg)
 
-<sub>Editable source: [`docs/architecture.excalidraw`](docs/architecture.excalidraw) (open at excalidraw.com).</sub>
+<sub>Editable source: [`docs/architecture.excalidraw`](docs/architecture.excalidraw) (open at excalidraw.com).</sub>  
+<sub>📚 Deep-dive documentation: [`docs/architecture.md`](docs/architecture.md) \| 🌐 Interactive visualizer: [`docs/architecture_flow.html`](docs/architecture_flow.html)</sub>
 
 ## What's inside
 | Path | What |
